@@ -1,0 +1,5 @@
+onnxruntime
+opencv-python
+numpy
+cvzone
+pyttsx3
