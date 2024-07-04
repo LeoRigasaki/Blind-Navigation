@@ -2,8 +2,9 @@ import cv2
 import numpy as np
 from roboflow import Roboflow
 
+api_key = ROBOFLOW_API
 # Initialize Roboflow
-rf = Roboflow(api_key="YGdi5nzniOtNQ57mZxYo")
+rf = Roboflow(api_key)
 project = rf.workspace().project("blind-naviagtion")
 roboflow_model = project.version(1).model
 
